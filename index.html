@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="normalize.css"> -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="app.js"></script>
+  <title>Document</title>
+</head>
+<body>
+ <div> <div class = "main-container ka">
+<div id="greeting">
+ <p id="name"> Hi Jack Your score is: </p>
+ <div class='trueScore'>
+<p id="stringTrue">True</p>
+<p id="true">0</p>
+ </div>
+ <div class = 'falseScore'>
+<p id='stringFalse'>False</p>
+<p id="false">0</p>
+ </div>
+</div>
+<div class='bonus'>
+<div class="addSeconds"><span>+5 Seconds</span></div>
+<div class="removeBonus"><span>- 2 Wrong</span></div>
+<div class="skip"><span>Skip</span></div>
+</div>
+<div>
+  <button class='btnStart'>START</button>
+</div>
+<div id='clock'>10</div>
+<div id = "questionBox">
+  <div id = 'question'>Question is Loading....</div>
+  <div id="answers">
+    
+  </div>
+</div>
+</div>
+
+  </div>
+  <div class = "user-container">
+    <input type="text" id="username" placeholder="Enter Your Name">
+    <select class="select">
+      <option value="">General Knowledge</option>
+      <option value="">Books</option>
+      <option value="">Film</option>
+      <option value="">Music</option>
+      <option value="">Musicials & Theatres</option>
+      <option value="">Television</option>
+      <option value="">Video Game</option>
+      <option value="">Board Game</option>
+      <option value="">Nature</option>
+      <option value="">Computer</option>
+      <option value="">Mathematics</option>
+      <option value="">Mythology</option>
+      <option value="">Sports</option>
+      <option value="">Geography</option>
+      <option value="">History</option>
+      <option value="">Politics</option>
+      <option value="">Art</option>
+      <option value="">Celebrity</option>
+      <option value="">Animals</option>
+      <option value="">Vehicles</option>
+      <option value="">Comics</option>
+      <option value="">Gadgets </option>
+      <option value="">Japaneese Anime</option>
+      <option value="">Cartoons</option>
+    </select>
+    <button type="submit" id="btnSubmit">Submit</button>
+  </div>
+</body>
+</html>
